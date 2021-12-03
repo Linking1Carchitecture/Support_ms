@@ -20,7 +20,7 @@ RUN gem install bundler -v 2.1.4 && \
 COPY . /app/
 
 ENTRYPOINT ["entrypoint.sh"]
-EXPOSE 3000
+EXPOSE 10524
 
 # Configure the main process to run when running the image
 CMD ["rails", "server", "-b", "0.0.0.0"]
