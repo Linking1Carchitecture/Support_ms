@@ -1,7 +1,15 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  description: MyString
+  description: MyText
+  user_r: MyString
+  img_r: MyString
+  typer: 1
+  offender: MyText
 
 two:
-  description: MyString
+  description: MyText
+  user_r: MyString
+  img_r: MyString
+  typer: 1
+  offender: MyText

@@ -15,6 +15,10 @@ class ReportsTest < ApplicationSystemTestCase
     click_on "New Report"
 
     fill_in "Description", with: @report.description
+    fill_in "Img r", with: @report.img_r
+    fill_in "Offender", with: @report.offender
+    fill_in "Typer", with: @report.typer
+    fill_in "User r", with: @report.user_r
     click_on "Create Report"
 
     assert_text "Report was successfully created"
@@ -26,6 +30,10 @@ class ReportsTest < ApplicationSystemTestCase
     click_on "Edit", match: :first
 
     fill_in "Description", with: @report.description
+    fill_in "Img r", with: @report.img_r
+    fill_in "Offender", with: @report.offender
+    fill_in "Typer", with: @report.typer
+    fill_in "User r", with: @report.user_r
     click_on "Update Report"
 
     assert_text "Report was successfully updated"
